@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/img/fondo5.jpg);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.container{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+    background: none;
+    border-radius: 10px;
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 5px 5px 10px #0000002f;
+    
+}
+.title-box{
+    padding: 20px;
+    background: #c4bfbf7a;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title-box{
+    color: #ff0404;
+}
+.subname-box, .cuestion, .submenu-box_continue{
+    background: #ff00006e;
+}
+.subname-box{
+    padding: 20px;
+    color: #fff;
+}
+.cuestion{
+    padding: 20px;
+}
+.submenu-box_continue{
+    padding: 25px;
+}
+.Buttom{
+    background: #ffffff71;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+}
+.Buttom a{
+    margin: 50px;
+    background: #b46868;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+a:hover{
+    background: #ff0404;
+    color: #ffffff;
+    
+}
+@media (max-width: 407px){
+    body{
+        background-image: url(/img/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        margin-bottom: 20px;
+        margin-top: 90px;
+        margin-left: 35px;
+        margin-right: 35px;
+        background: none;
+        backdrop-filter: blur(0.5rem);
+        box-shadow: 5px 5px 10px #433d3db9;
+        
+    }
+    .cuestion{
+        color: #fff;
+    }
+    .subname-box{
+        font-size: 18px;
+    }
+    .submenu-box_continue{
+        font-size: 23px;
+    }
+}
